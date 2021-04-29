@@ -1,0 +1,8 @@
+version: "3.7"
+
+services:
+  main:
+    build: .
+    image: lang_main
+    volumes:
+      - .:/home/user
